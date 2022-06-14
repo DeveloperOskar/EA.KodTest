@@ -39,7 +39,7 @@ namespace EA.KodTest.Api.Packages.Features.GetPackageMeasures
                  Följande mått får ej överskridas". 
                 
                 This check should really be done when you save a package.
-                So there should be no way a package can exceed the limits. So I just implemented a small check here.
+                So there should be no way a package can have exceed the limits. So I just implemented a small check here.
                */
 
                 if (packages[packagenumber].ValidatePackage() == false)
